@@ -504,7 +504,7 @@
                                             <div class="col-md-12">
                                                 <h2 class="title-uppercase">Reden wir</h2>
                                                 <div class="contact-info">
-                                                    <form class="js-form" novalidate="novalidate" netlify>
+                                                    <form  name="portfolio" class="js-form" novalidate="novalidate" method="POST" data-netlify-recaptcha="true" netlify>
                                                         <div class="row">
                                                             <div class="form-group col-sm-6">
                                                                 <input type="text" name="name" required="" placeholder="Name*" aria-required="true">
@@ -518,6 +518,7 @@
                                                             <div class="form-group col-sm-12">
                                                                 <textarea name="message" required="" placeholder="Nachricht*" aria-required="true"></textarea>
                                                             </div>
+                                                            <div data-netlify-recaptcha="true"></div>
                                                             <div class="col-sm-12"><button type="submit" value="Send" class="btn">Nachricht senden</button></div>
                                                         </div>
                                                     </form>
