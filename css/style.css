@@ -20,7 +20,7 @@
 }
 
 .gray-dark {
-  color: #212121;
+  color: #272727;
 }
 
 .gray-mid {
@@ -4460,6 +4460,12 @@ a.brand:hover, a.brand:focus {
 }
 
 /* 3.4.1 Projects Carousel */
+.project-carousel-item {
+  background: radial-gradient(#424242 2px, transparent 4px), radial-gradient(#424242 2px, transparent 4px), linear-gradient(#272727 4px, transparent 0), linear-gradient(45deg, transparent 74px, transparent 75px, #424242 75px, #424242 76px, transparent 77px, transparent 109px), linear-gradient(-45deg, transparent 75px, transparent 76px, #424242 76px, #424242 77px, transparent 78px, transparent 109px), #272727;
+  background-size: 109px 109px, 109px 109px, 100% 6px, 109px 109px, 109px 109px;
+  background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+}
+
 .project-carousel-item .inner-content {
   display: table-cell;
   height: 100vh;
