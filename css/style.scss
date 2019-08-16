@@ -3721,32 +3721,6 @@ a.brand {
 
 /* 1.1 General */
 
-@import url('bootstrap.css');
-
-@import url('animsition.css');
-
-@import url('font-awesome.min.css');
-
-@import url('ionicons.min.css');
-
-@import url('linearicons.css');
-
-@import url('animate.css');
-
-@import url('magnific-popup.css');
-
-@import url('jquery.fullPage.css');
-
-@import url('jquery.pagepiling.css');
-
-@import url('owl.carousel.css');
-
-@import url('settings.css');
-
-@import url('layers.css');
-
-@import url('navigation.css');
-
 html {
     font-size: 12px;
     -webkit-font-smoothing: antialiased;
@@ -4881,7 +4855,6 @@ a.brand {
     display: inline-block;
     font-style: italic;
     color: #999999;
-
     &:hover {
         text-decoration: none;
         color: $orange;
@@ -7309,7 +7282,6 @@ a.brand {
         height: 36rem;
     }
 
-    /* Homepage v2 */
     .col-contact-info:nth-child(2n) {
         border-left: 1px solid #3c3c3c;
     }
@@ -7329,7 +7301,6 @@ a.brand {
         margin-top: 0;
     }
 
-    /* Homepage v2 */
     .section-3 .link-arrow.h5 {
         float: right;
         margin-top: -1.3rem;
@@ -7340,12 +7311,11 @@ a.brand {
         margin-bottom: 0;
     }
 
-    /* Works Carousel */
+    /* Carousel */
     .sly ul li {
         width: 685px;
     }
 
-    /* Homepage v2 */
     .section-5 .vertical-centred {
         padding-top: 17rem;
         padding-bottom: 8rem;
@@ -7355,7 +7325,6 @@ a.brand {
         border-left: 1px solid #3c3c3c;
     }
 
-    /* Footer */
     .footer-flex .flex-item {
         -webkit-box-flex: none;
         -webkit-flex: none;
@@ -7363,8 +7332,6 @@ a.brand {
         flex: none;
     }
 }
-
-/* 8.5 Min Height 500px */
 
 @media (min-height: 500px) {
     #pp-nav {
@@ -7375,8 +7342,6 @@ a.brand {
         }
     }
 }
-
-/* 8.6 Min Height 600px */
 
 @media (min-height: 600px) {
 
@@ -7403,11 +7368,9 @@ a.brand {
     }
 }
 
-/* 8.7 Min Height 700px */
 
 @media (min-height: 700px) {
 
-    /* Homepage v2 */
     .copy-bottom,
     .lang-bottom {
         display: block;

@@ -11,19 +11,6 @@
 @import './jquery.pagepiling.css';
 @import './owl.carousel.css';
 @import 'https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i|Poppins:400,500,600,700&subset=cyrillic';
-@import url("bootstrap.css");
-@import url("animsition.css");
-@import url("font-awesome.min.css");
-@import url("ionicons.min.css");
-@import url("linearicons.css");
-@import url("animate.css");
-@import url("magnific-popup.css");
-@import url("jquery.fullPage.css");
-@import url("jquery.pagepiling.css");
-@import url("owl.carousel.css");
-@import url("settings.css");
-@import url("layers.css");
-@import url("navigation.css");
 .white {
   color: #FFF;
 }
@@ -6664,7 +6651,6 @@ a.brand:hover, a.brand:focus {
     height: 36rem;
   }
 
-  /* Homepage v2 */
   .col-contact-info:nth-child(2n) {
     border-left: 1px solid #3c3c3c;
   }
@@ -6681,7 +6667,6 @@ a.brand:hover, a.brand:focus {
     margin-top: 0;
   }
 
-  /* Homepage v2 */
   .section-3 .link-arrow.h5 {
     float: right;
     margin-top: -1.3rem;
@@ -6692,12 +6677,11 @@ a.brand:hover, a.brand:focus {
     margin-bottom: 0;
   }
 
-  /* Works Carousel */
+  /* Carousel */
   .sly ul li {
     width: 685px;
   }
 
-  /* Homepage v2 */
   .section-5 .vertical-centred {
     padding-top: 17rem;
     padding-bottom: 8rem;
@@ -6707,7 +6691,6 @@ a.brand:hover, a.brand:focus {
     border-left: 1px solid #3c3c3c;
   }
 
-  /* Footer */
   .footer-flex .flex-item {
     -webkit-box-flex: none;
     -webkit-flex: none;
@@ -6715,14 +6698,12 @@ a.brand:hover, a.brand:focus {
     flex: none;
   }
 }
-/* 8.5 Min Height 500px */
 @media (min-height: 500px) {
   #pp-nav .pp-nav-up,
 #pp-nav .pp-nav-down {
     display: block;
   }
 }
-/* 8.6 Min Height 600px */
 @media (min-height: 600px) {
   /* Sidebar Menu */
   .menu .menu-lang {
@@ -6744,9 +6725,7 @@ a.brand:hover, a.brand:focus {
     display: block;
   }
 }
-/* 8.7 Min Height 700px */
 @media (min-height: 700px) {
-  /* Homepage v2 */
   .copy-bottom,
 .lang-bottom {
     display: block;
