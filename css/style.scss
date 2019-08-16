@@ -6865,12 +6865,17 @@ a.brand {
     margin-top: 5rem;
     display: inline-block;
 
-    img {
-        max-width: 100%;
+    i {
+        font-size: 45px;
         opacity: 0.4;
+        &.main {
+          font-size: 60px;
+          color: $orange;
+          opacity: .3;
+        }
     }
 
-    &:hover img {
+    &:hover i {
         opacity: 1;
         -webkit-transition: all 0.5s;
         -o-transition: all 0.5s;

@@ -6246,11 +6246,16 @@ a.brand:hover, a.brand:focus {
   margin-top: 5rem;
   display: inline-block;
 }
-.col-partner img {
-  max-width: 100%;
+.col-partner i {
+  font-size: 45px;
   opacity: 0.4;
 }
-.col-partner:hover img {
+.col-partner i.main {
+  font-size: 60px;
+  color: #FFA726;
+  opacity: 0.3;
+}
+.col-partner:hover i {
   opacity: 1;
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
