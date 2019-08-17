@@ -5763,6 +5763,11 @@ a.brand {
 .review-carousel .text {
     font-size: 1.142rem;
     line-height: 1.875;
+    .ghchart {
+      background-color: rgba(255,255,255,.1);
+      border-radius: 3px; 
+      padding: 15px 15px 20px 15px;
+    }
 }
 
 .review-author {
@@ -5784,6 +5789,16 @@ a.brand {
         -ms-transform: none;
         -o-transform: none;
         transform: none;
+    }
+    
+    .owl-item img {
+      filter: saturate(0.5) opacity(0.8); 
+      -webkit-transition: 0.5s ease;
+      -o-transition: 0.5s ease;
+      transition: 0.5s ease;
+      &:hover img {
+        filter: saturate(0.8) opacity(1); 
+      }
     }
 
     .owl-prev,
@@ -5823,6 +5838,12 @@ a.brand {
     .owl-next.disabled:hover {
         background: none;
         color: $white;
+    }
+
+    .pens {
+      p {
+        margin: 1rem 0.6rem 0.6rem 0.6rem;
+      }
     }
 }
 
@@ -6856,10 +6877,12 @@ a.brand {
         font-size: 45px;
         opacity: 0.4;
 
+        &.mid {
+          font-size: 60px;
+        }
+
         &.main {
-            font-size: 60px;
-            color: $orange;
-            opacity: .3;
+            font-size: 90px;
         }
     }
 

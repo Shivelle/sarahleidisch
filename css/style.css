@@ -5261,6 +5261,11 @@ a.brand:hover, a.brand:focus {
   font-size: 1.142rem;
   line-height: 1.875;
 }
+.review-carousel .text .ghchart {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+  padding: 15px 15px 20px 15px;
+}
 
 .review-author {
   margin-top: 5.7rem;
@@ -5280,6 +5285,15 @@ a.brand:hover, a.brand:focus {
   -ms-transform: none;
   -o-transform: none;
   transform: none;
+}
+.review-carousel .owl-item img {
+  filter: saturate(0.5) opacity(0.8);
+  -webkit-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+.review-carousel .owl-item img:hover img {
+  filter: saturate(0.8) opacity(1);
 }
 .review-carousel .owl-prev,
 .review-carousel .owl-next {
@@ -5313,6 +5327,9 @@ a.brand:hover, a.brand:focus {
 .review-carousel .owl-next.disabled:hover {
   background: none;
   color: #FFF;
+}
+.review-carousel .pens p {
+  margin: 1rem 0.6rem 0.6rem 0.6rem;
 }
 
 /* 4.6 Section Contacts */
@@ -6244,10 +6261,11 @@ a.brand:hover, a.brand:focus {
   font-size: 45px;
   opacity: 0.4;
 }
-.col-partner i.main {
+.col-partner i.mid {
   font-size: 60px;
-  color: #FFA726;
-  opacity: 0.3;
+}
+.col-partner i.main {
+  font-size: 90px;
 }
 .col-partner:hover i {
   opacity: 1;
