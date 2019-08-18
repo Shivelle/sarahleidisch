@@ -535,8 +535,11 @@
                                             <div class="col-md-12">
                                                 <h2 class="title-uppercase">Reden wir</h2>
                                                 <div class="contact-info">
-                                                    <form name="portfolio" class="js-form" novalidate="novalidate" method="POST" data-netlify-recaptcha="true" netlify>
+                                                    <form name="portfolio" class="js-form" novalidate="novalidate" netlify-honeypot="bot-field" method="POST" data-netlify-recaptcha="true" netlify>
                                                         <div class="row">
+                                                            <p class="hidden">
+                                                              <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                                                            </p>
                                                             <div class="form-group col-sm-6">
                                                                 <input type="text" name="name" required="" placeholder="Name*" aria-required="true">
                                                             </div>
