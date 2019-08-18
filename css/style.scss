@@ -1859,11 +1859,6 @@ a.brand {
     background-position: center;
     filter: blur(8px);
     -webkit-filter: blur(8px);
-
-    /*    &.hero {
-        filter: blur(8px);
-        -webkit-filter: blur(8px);
-    }*/
 }
 
 .vertical-title {
@@ -5790,17 +5785,6 @@ a.brand {
         -o-transform: none;
         transform: none;
     }
-    
-    .owl-item img {
-      filter: saturate(0.5) opacity(0.8); 
-      -webkit-transition: 0.5s ease;
-      -o-transition: 0.5s ease;
-      transition: 0.5s ease;
-      &:hover img {
-        filter: saturate(0.8) opacity(1); 
-      }
-    }
-
     .owl-prev,
     .owl-next {
         font-size: 1.2857rem;
@@ -5841,6 +5825,30 @@ a.brand {
     }
 
     .pens {
+      a {
+        overflow: hidden;
+        img {
+          filter: saturate(0.5) opacity(0.8); 
+          -webkit-transition: 0.5s ease;
+          -o-transition: 0.5s ease;
+          transition: 0.5s ease;
+          &:hover {
+            filter: saturate(1) opacity(1); 
+          }
+        }
+    }
+
+        
+/*      img {
+        transition: .3s all ease-in-out;
+        opacity: .7;
+        &:hover {
+          opacity: 1;
+        }
+      }*/
+      
+
+
       p {
         margin: 1rem 0.6rem 0.6rem 0.6rem;
       }

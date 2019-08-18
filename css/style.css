@@ -1747,10 +1747,6 @@ a.brand:hover, a.brand:focus {
   background-position: center;
   filter: blur(8px);
   -webkit-filter: blur(8px);
-  /*    &.hero {
-      filter: blur(8px);
-      -webkit-filter: blur(8px);
-  }*/
 }
 
 .vertical-title {
@@ -5286,15 +5282,6 @@ a.brand:hover, a.brand:focus {
   -o-transform: none;
   transform: none;
 }
-.review-carousel .owl-item img {
-  filter: saturate(0.5) opacity(0.8);
-  -webkit-transition: 0.5s ease;
-  -o-transition: 0.5s ease;
-  transition: 0.5s ease;
-}
-.review-carousel .owl-item img:hover img {
-  filter: saturate(0.8) opacity(1);
-}
 .review-carousel .owl-prev,
 .review-carousel .owl-next {
   font-size: 1.2857rem;
@@ -5327,6 +5314,27 @@ a.brand:hover, a.brand:focus {
 .review-carousel .owl-next.disabled:hover {
   background: none;
   color: #FFF;
+}
+.review-carousel .pens {
+  /*      img {
+          transition: .3s all ease-in-out;
+          opacity: .7;
+          &:hover {
+            opacity: 1;
+          }
+        }*/
+}
+.review-carousel .pens a {
+  overflow: hidden;
+}
+.review-carousel .pens a img {
+  filter: saturate(0.5) opacity(0.8);
+  -webkit-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+.review-carousel .pens a img:hover {
+  filter: saturate(1) opacity(1);
 }
 .review-carousel .pens p {
   margin: 1rem 0.6rem 0.6rem 0.6rem;
