@@ -123,6 +123,10 @@ body {
   -webkit-overflow-scrolling: touch;
 }
 
+.spacer {
+  margin-top: 100px;
+}
+
 .body-fullpage {
   overflow: hidden;
 }
@@ -247,7 +251,7 @@ strong {
 }
 
 p {
-  margin-bottom: 1.6rem;
+  margin-bottom: 1rem;
 }
 
 blockquote {
@@ -3575,7 +3579,7 @@ strong {
 }
 
 p {
-  margin-bottom: 2.6rem;
+  margin-bottom: 1rem;
 }
 
 blockquote {

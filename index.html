@@ -13,6 +13,7 @@
     <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
     <title>Sarah Leidisch</title>
     <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link href="css/style.css" rel="stylesheet" media="screen">
 </head>
@@ -593,6 +594,28 @@
             </div>
         </div>
     </div>
+    <!-- Cookie Consent -->
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script>
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#000"
+        },
+        "button": {
+          "background": "transparent",
+          "text": "#FFA726",
+          "border": "#FFA726"
+        }
+      },
+      "content": {
+        "message": "Diese Website nutzt Cookies, um Ihnen ein besseres Nutzererlebnis zu bieten zu können.",
+        "dismiss": "Verstanden!",
+        "link": "Mehr erfahren",
+        "href": "www.sleidisch.com/datenschutz"
+      }
+    });
+    </script>
     <!-- jQuery -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
