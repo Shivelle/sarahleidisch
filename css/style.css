@@ -5322,12 +5322,12 @@ a.brand:hover, a.brand:focus {
 }
 .review-carousel .pens {
   /*      img {
-          transition: .3s all ease-in-out;
-          opacity: .7;
-          &:hover {
-            opacity: 1;
-          }
-        }*/
+    transition: .3s all ease-in-out;
+    opacity: .7;
+    &:hover {
+      opacity: 1;
+    }
+  }*/
 }
 .review-carousel .pens a {
   overflow: hidden;
